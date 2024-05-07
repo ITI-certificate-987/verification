@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    e-Certificate Verification
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+  <link rel="stylesheet" href="Styles/stylex.css" />
+  <link rel="stylesheet" href="Styles/blue.css">
+  <!--[if lte IE 7]>
+    <link href="/Styles/IECompatFix.css" rel="stylesheet" type="text/css" />
+    <![endif]-->
+  <link rel="shortcut icon" href="Images/favicon.ico" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    html,
+    body {
+      min-width: 1200px;
+    }
+  </style>
+</head>
+
+<body style="font-size:13px;">
+  <form method="post" action="./Validate.aspx?Key=0017080919549" id="frmMain">
+    <div class="aspNetHidden">
+      <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+      <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+      <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="" />
+    </div>
+
+    <script type="text/javascript">
+      //<![CDATA[
+      var theForm = document.forms['frmMain'];
+      if (!theForm) {
+        theForm = document.frmMain;
+      }
+      function __doPostBack(eventTarget, eventArgument) {
+        if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+          theForm.__EVENTTARGET.value = eventTarget;
+          theForm.__EVENTARGUMENT.value = eventArgument;
+          theForm.submit();
+        }
+      }
+      //]]>
+    </script>
+    <div id="header">
+      <table>
+        <tr>
+          <td style="width: 50px" rowspan="2">
+            <a href="/Pages/Home.aspx">
+              <img src="Images/img_logo.png" alt="NCVT MIS" style="height: 50px" /></a>
+          </td>
+          <td class="sitename" style="vertical-align: middle; width: 640px;" rowspan="2">Ministry of
+            Skill Development
+            And Entrepreneurship
+          </td>
+          <td style="text-align: right; vertical-align: top; padding-top: 2px; padding-right: 10px">
+            <a id="lbtnFontSizeInc" class="linkblock" href="">+A</a>
+            <a id="lbtnFontSizeRst" class="linkblock" href="">A</a>
+            <a id="lbtnFontSizeDec" class="linkblock" href="">-A</a>
+            &nbsp;
+            &nbsp;
+            <a href="Pages/Terms.html">Terms & Conditions</a> |
+            <a href="Pages/PrivacyPolicy.html">Privacy Policy</a>
+          </td>
+        </tr>
+        <tr>
+          <td style="text-align: right; vertical-align: bottom; padding-bottom: 2px;">
+            <ul class="sitelink" style="text-align: right">
+              <li><span class="icon fa-regular fa-envelope mail"></span>
+                <a id="hlnkSupport" href="mailto:" target="_blank">Support</a>
+              </li>
+              <li><span class="icon fa-solid fa-arrow-up-right-from-square"></span><a
+                  href="https://login.ncvtmis.gov.in/MIS/PreLog/UserLogin.aspx" target="_blank">Login</a></li>
+              <li><span class="icon fa-regular fa-circle-question help"></span>
+                <a id="hlnkFAQ" href="Pages/NCVT_MIS_FAQ.pdf" target="_blank">FAQ</a>
+              </li>
+              <li><span class="icon fa-regular fa-circle-question help"></span>
+                <a id="hlnkHelp" href="#" target="_blank">Help</a>
+              </li>
+              <li><span class="icon fa-regular fa-circle-question help help"></span>
+                <a id="hlkSiteMap" href="../SiteMap.aspx">SiteMap</a>
+            </li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      <div style="display: block; background: linear-gradient(to bottom, #48a3e7, #95c8ef);">
+        <div class="menu" id="mnuMain" style="float: left; 
+          background: linear-gradient(to bottom, #48a3e7, #95c8ef);">
+          <ul class="level1">
+            <li><a title="DGT Home Page" class="level1" href="http://help.ncvtmis.gov.in/sm/ess.do">Home</a></li>
+            <li><a class="popout level1" href="#" onclick="">ITI</a>
+              <ul class="level2">
+                <li><a title="Page to search for ITIs." class="level2" href="http://help.ncvtmis.gov.in/sm/ess.do">ITI Search</a>
+                </li>
+                <li><a title="Page to search for ITIs and provide Feedback." class="level2"
+                    href="http://help.ncvtmis.gov.in/sm/ess.do">Grading</a></li>
+                <li><a title="Page provides Tradewise count of avaiable, occupied seats and count of ITIs."
+                    class="level2" href="http://help.ncvtmis.gov.in/sm/ess.do">Trade Statistics</a></li>
+              </ul>
+            </li>
+            <li><a class="popout level1" href="#" onclick="">Trainee</a>
+              <ul class="level2">
+                <li><a title="Page to search for Trainees." class="level2" href="http://help.ncvtmis.gov.in/sm/ess.do">Trainee
+                    Search</a></li>
+                <li><a title="Page allows Trainee to verify their own profile." class="level2"
+                    href="http://help.ncvtmis.gov.in/sm/ess.do">Trainee Verification</a></li>
+                <li><a title="Page to search for Trainees." class="level2"
+                    href="http://help.ncvtmis.gov.in/sm/ess.do">Trainee Verification Before
+                    HT</a>
+                </li>
+                <li><a title="Page allows Trainee to view their own profile." class="level2"
+                    href="http://help.ncvtmis.gov.in/sm/ess.do">Trainee Profile</a></li>
+                <li><a title="Page to download NAC Certificate." class="level2"
+                    href="http://help.ncvtmis.gov.in/sm/ess.do">NAC Legacy Certificate</a></li>
+                <li><a title="Page to download COE Certificate." class="level2"
+                    href="http://help.ncvtmis.gov.in/sm/ess.do">COE Certificate Download</a></li>
+                <li><a title="Page allows Trainee to view their Flexi MoU Marksheet and Certificate." class="level2"
+                    href="http://help.ncvtmis.gov.in/sm/ess.do">Flexi Marksheet Certificate</a></li>
+                <li><a title="Page allows Trainee to view their Flexi MoU Semester Marksheet and Certificate."
+                    class="level2" href="http://help.ncvtmis.gov.in/sm/ess.do">Flexi Semester
+                    Marksheet Certificate</a></li>
+                <li><a title="Page to download Marksheet." class="level2" href="http://help.ncvtmis.gov.in/sm/ess.do">DST
+                    Marksheet Before 2019</a></li>
+                <li><a title="Page to download Certificate." class="level2"
+                    href="http://help.ncvtmis.gov.in/sm/ess.do">DST Certificate Before 2019</a></li>
+                <li><a title="Page to download NCIC Certificate." class="level2"
+                    href="http://help.ncvtmis.gov.in/sm/ess.do">NCIC Legacy Certificate</a></li>
+                <li><a title="Page allows Trainee to view their NTC Certificate." class="level2"
+                    href="http://help.ncvtmis.gov.in/sm/ess.do">NTC Legacy Certificate</a></li>
+              </ul>
+            </li>
+            <li><a class="popout level1" href="#" onclick="">Verification</a>
+              <ul class="level2">
+                <li><a title="Page to validate e-Certificate." class="level2 selected"
+                    href="http://help.ncvtmis.gov.in/sm/ess.do">e-Certificate Verification</a></li>
+                <li><a title="Page to search certified Trainee." class="level2"
+                    href="http://help.ncvtmis.gov.in/sm/ess.do">Certified Trainee Search</a></li>
+                <li><a title="Page to verify Marksheet." class="level2" href="http://help.ncvtmis.gov.in/sm/ess.do">Marksheet
+                    Verification</a></li>
+              </ul>
+            </li>
+            <li><a class="popout level1" href="#" onclick="">Instructor</a>
+              <ul class="level2">
+                <li><a title="Page to search for Instructors." class="level2"
+                    href="http://help.ncvtmis.gov.in/sm/ess.do">Instructor Search</a></li>
+              </ul>
+            </li>
+            <li><a class="popout level1" href="#" onclick="">Examiner</a>
+              <ul class="level2">
+                <li><a title="Page for Examiner&#39;s Registration." class="level2"
+                    href="http://help.ncvtmis.gov.in/sm/ess.do">Examiner Registration</a></li>
+                <li><a title="Page to activate Examiner and approve/reject Mapping." class="level2"
+                    href="http://help.ncvtmis.gov.in/sm/ess.do">Examiner Activation</a></li>
+                <li><a title="Page for Examiner&#39;s Login." class="level2"
+                    href="http://help.ncvtmis.gov.in/sm/ess.do">Examiner Login</a></li>
+              </ul>
+            </li>
+            <li><a class="popout level1" href="#" onclick="">Calendar</a>
+              <ul class="level2">
+                <li><a title="Page provides activities with deadline of Academic Calender." class="level2"
+                    href="http://help.ncvtmis.gov.in/sm/ess.do">Academic Calendar</a></li>
+                <li><a title="Page provides examination schedule for different semesters and Academic Calender."
+                    class="level2" href="http://help.ncvtmis.gov.in/sm/ess.do">Examination Calendar</a></li>
+              </ul>
+            </li>
+            <li><a title="CFI Home" class="level1" href="http://help.ncvtmis.gov.in/sm/ess.do">CFI</a></li>
+            <li><a title="Help" class="popout level1" href="#" onclick="">Help</a>
+              <ul class="level2">
+                <li><a title="User Manual" class="popout level2" href="http://help.ncvtmis.gov.in/sm/ess.do" onclick="">User Manual</a>
+                  
+                </li>
+              </ul>
+            </li>
+            <li><a class="popout level1" href="#" onclick="">Dashboard</a>
+              <ul class="level2">
+                <li><a title="DGT Reporting Dashboard" class="level2" href="http://help.ncvtmis.gov.in/sm/ess.do">DGT
+                    Reporting Dashboard</a></li>
+                <li><a title="Admitted Trainee Dashboard" class="level2"
+                    href="http://help.ncvtmis.gov.in/sm/ess.do">Admitted Trainee Dashboard</a></li>
+                <li><a title="Instructor Dashboard" class="level2"
+                    href="http://help.ncvtmis.gov.in/sm/ess.do">Instructor Dashboard</a></li>
+                <li><a title="Annual Result Dashboard" class="level2"
+                    href="http://help.ncvtmis.gov.in/sm/ess.do">Annual Result Dashboard</a></li>
+                <li><a title="Semester Result Dashboard" class="level2"
+                    href="http://help.ncvtmis.gov.in/sm/ess.do">Semester Result Dashboard</a></li>
+              </ul>
+            </li>
+            <li><a class="popout level1" href="#" onclick="">Complaint Tool</a>
+              <ul class="level2">
+                <li><a title="Complaint Tool" class="level2" href="http://help.ncvtmis.gov.in/sm/ess.do">Complaint
+                    Tool</a></li>
+                <li><a title="Helpdesk" class="popout level2" href="#" onclick="">Helpdesk</a>
+                  <ul class="level3">
+                    <li><a title="DGET SOP HelpDesk" class="level3"
+                        href="http://help.ncvtmis.gov.in/sm/ess.do">DGET SOP HelpDesk</a></li>
+                    <li><a title="FAQs" class="level3" href="http://help.ncvtmis.gov.in/sm/ess.do">FAQs</a></li>
+                  </ul>
+                </li>
+                <li><a class="popout level2" href="#" onclick="">Grievance</a>
+                  
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <a id="mnuMain_SkipLink" style="background: linear-gradient(to bottom, #48a3e7, #95c8ef);"></a>
+    </div>
+    <div id="body">
+
+      <script type="text/javascript">
+        AddToolTip("#" + "cphBody_txtCertificateNo", "Please enter e-Certificate number.");
+        AddToolTip("#" + "", "Click to validate e-Certificate Number.");
+        function OnGoClick() {
+          CheckMandatory("");
+          if (HasError()) {
+            ShowBanner(bannerError);
+            return false;
+          }
+          return true;
+        }
+
+        function isNumberAllowed(event) {
+          var charCode = (event.which) ? event.which : event.keyCode
+          if (charCode > 31 && (charCode < 48 || charCode > 57))
+            return false;
+
+          return true;
+        }
+      </script>
+      <h1 style="display: grid;">e-Certificate Verification</h1>
+      <div class="accordian">
+        <h2>Enter e-Certificate Number</h2>
+        <div>
+          <table class="form" style="width: 100%">
+            <tr>
+              <th style="width: 25%; padding-left: 6%">e-Certificate Number</th>
+              <td style="width: 20%; padding-top: 1%">
+                <input name="ctl00$cphBody$txtCertificateNo" type="text" value="0017080919549" maxlength="13"
+                  id="cphBody_txtCertificateNo" title="e-Certificate Number" class="required"
+                  onkeypress="return isNumberAllowed(event)" /><sub style="padding-left: 10%">(Only Numbers
+                  Allowed)</sub>
+              </td>
+              <th style="width: 25%; padding-left: 6%">Certificate Type</th>
+              <td style="width: 20%; padding-top: 1%">
+                <select name="ctl00$cphBody$ddlCertificateType" id="cphBody_ddlCertificateType" title="Certificate Type"
+                  class="required">
+                  <option value="-1">--select--</option>
+                  <option value="1" selected>NCVT</option>
+                  <option value="2">Apprenticeship</option>
+
+                </select><sub style="padding-left: 10%"></sub>
+
+              </td>
+              <td style="width: 55%">
+                <input type="submit" name="ctl00$cphBody$btnGo" value="Go" onclick="return false"
+                  id="cphBody_btnGo" title="Search Certificate Number" />
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div id="cphBody_dvTraineeInfo" class="accordian">
+        <h2>Certified Trainee Information</h2>
+        <table class="form">
+          <tr>
+            <th style="width: 20%">Trainee Name</th>
+            <td>
+              <span id="cphBody_lblTraineeName">RAHUL KUMAR</span>
+            </td>
+          </tr>
+          <tr>
+            <th style="width: 20%">Father Name </th>
+            <td>
+              <span id="cphBody_lblFatherName">TEJVEER</span>
+            </td>
+          </tr>
+
+          <tr>
+            <th style="width: 20%">Institute</th>
+            <td>
+              <span id="cphBody_lblInstitite">GR09001541-Government ITI, Saket, Meerut</span>
+            </td>
+          </tr>
+
+          <tr>
+            <th style="width: 20%">Institute Address</th>
+            <td>
+              <span id="cphBody_lblInstituteAddress">Government ITI, Saket, Meerut MEERUT, UTTAR
+                PRADESH-250001</span>
+            </td>
+          </tr>
+
+
+          <tr>
+            <th style="width: 10%">Trade</th>
+            <td>
+              <span id="cphBody_lblTrade">Mechanic (Motor Vehicle)</span>
+            </td>
+          </tr>
+          <tr>
+            <th style="width: 20%">Training Duration </th>
+            <td>
+              <span id="cphBody_lblTrainingDuration">Aug-2016 To Jul-2019</span>
+            </td>
+          </tr>
+
+          <tr>
+            <th style="width: 10%">Certified</th>
+            <td>
+              <span id="cphBody_lblCertified">Yes</span>
+            </td>
+          </tr>
+          <tr>
+            <th style="width: 10%">Certificate Issue Date</th>
+            <td>
+              <span id="cphBody_lblDateOfIssue">28-Nov-2019</span>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" class="center">
+              <input type="button" name="ctl00$cphBody$btnClose" value="Close" onclick="" id="cphBody_btnClose"
+                title="Close" />
+            </td>
+          </tr>
+        </table>
+      </div>
+
+
+
+
+    </div>
+    <div id="footer">
+      <table class="frame1">
+
+        <tr>
+          <th style="width: auto; padding-left: 10px">© 2015 Ministry of Skill Development And Entrepreneurship,
+            Government of India.</th>
+          <td style="padding-right: 5px; text-align: right">
+            <span id="tooltip"></span>
+          </td>
+        </tr>
+      </table>
+      <table class="frame2">
+        <tr>
+          <td style="width: auto; padding-left: 10px">Last Updated: 15th April 2016 | Server: WEBP-B | Recommended
+            browser: IE 8 (Compatibility Mode) and above, Chrome or Firefox.</td>
+          <td style="padding-right: 5px; text-align: right">
+            <span id="lblHits">Total Hits : 500,333,865 | Yearly Hits : 4,382,506 | Monthly Hits : 40,464,269</span>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div id="banner" class="warn" onclick="HideBanner();" title="Click/Press Esc to close">
+    </div>
+    <div id="overlay_bg">
+    </div>
+    <div id="confirm" class="round-corner unselectable hidden">
+      <table class="frame">
+        <tr>
+          <td style="height: 40px; vertical-align: top; text-align: center">
+            <h4></h4>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+
+
+
+
+    <script type="text/javascript">
+      //<![CDATA[
+      OnEachCallBack(); ResetScrollPosition();//]]>
+    </script>
+    <script
+      type='text/javascript'>new Sys.WebForms.Menu({ element: 'mnuMain', disappearAfter: 1000, orientation: 'horizontal', tabIndex: 0, disabled: false });</script>
+    <script type="text/javascript">
+      //<![CDATA[
+      Sys.Application.add_init(function () {
+        $create(Sys.UI._UpdateProgress, { "associatedUpdatePanelId": null, "displayAfter": 500, "dynamicLayout": true }, null, null, $get("upLoading"));
+      });
+      //]]>
+    </script>
+  </form>
+</body>
+<script type="text/javascript">
+  $("body").fadeIn(500);
+</script>
+
+</html>
